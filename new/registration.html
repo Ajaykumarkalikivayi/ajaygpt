@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+</head>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Marriage Bureau Registration Form</title>
+</head>
+<body>
+    <h1>Marriage Bureau Registration Form</h1>
+    <form action="#" method="post" >
+        <fieldset>
+
+        <legend><h2><strong>Personal Details</strong></h2></legend>
+        Full Name: <input type="text" name="full_name" required><br><br>
+        Date of Birth: <input type="datetime-local" name="dob" required><br><br>
+        Gender:
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <br><br>
+        Photo:<input type="file" name="photo" accept="image/jpeg, image/png"><br><br>
+        Contact Number: <input type="tel" name="phone" required><br><br>
+        Email: <input type="email" name="email" placeholder="abc@gmail.com"><br><br>
+        Address: <textarea name="address"></textarea><br><br>
+        </fieldset>
+        <fieldset>
+        <legend><h2>Physical Attributes</h2></legend>
+        Height (in cm): <input type="number" name="height"><br><br>
+        Weight (in kg): <input type="number" name="weight"><br><br>
+        Complexion: <input type="text" name="complexion"><br><br>
+        Body Type: <input type="text" name="body_type"><br><br>
+        </fieldset>
+        <fieldset>
+        <legend><h2>Religion & Community</h2></legend>
+        Religion: <input type="text" name="religion"><br><br>
+        Caste / Sub-caste: <input type="text" name="caste"><br><br>
+        Gotra / Gothram: <input type="text" name="gotra"><br><br>
+        Mother Tongue: <input type="text" name="mother_tongue"><br><br>
+        Horoscope Details: <textarea name="horoscope"></textarea><br><br>
+        </fieldset>
+        <fieldset>
+        <legend><h2>Education & Profession</h2></legend>
+        Education Qualification: <input type="text" name="education"><br><br>
+        Occupation / Job Role: <input type="text" name="occupation"><br><br>
+        Company / Organization: <input type="text" name="company"><br><br>
+        Annual Income: <input type="text" name="income"><br><br>
+        </fieldset>
+        <h2>Family Details</h2>
+        Father's Name and Occupation: <input type="text" name="father"><br><br>
+        Mother's Name and Occupation: <input type="text" name="mother"><br><br>
+        Siblings: <textarea name="siblings"></textarea><br><br>
+        Family Type:
+        <select name="family_type">
+            <option value="Joint">Joint</option>
+            <option value="Nuclear">Nuclear</option>
+        </select><br><br>
+        Family Status:
+        <select name="family_status">
+            <option value="Middle Class">Middle Class</option>
+            <option value="Upper Middle Class">Upper Middle Class</option>
+            <option value="Wealthy">Wealthy</option>
+        </select><br><br>
+
+        <h2>Partner Preferences</h2>
+        Preferred Age Range: <input type="text" name="pref_age"><br><br>
+        Preferred Height Range: <input type="text" name="pref_height"><br><br>
+        Preferred Religion / Caste: <input type="text" name="pref_religion_caste"><br><br>
+        Preferred Education & Profession: <input type="text" name="pref_education_profession"><br><br>
+        Preferred Location: <input type="text" name="pref_location"><br><br>
+        Other Preferences: <textarea name="other_prefs"></textarea><br><br>
+
+        <h2>Additional Info</h2>
+        Hobbies and Interests: <textarea name="hobbies"></textarea><br><br>
+        Languages Known: <input type="text" name="languages"><br><br>
+        Marital Status:
+        <select name="marital_status">
+            <option value="Never Married">Never Married</option>
+            <option value="Divorced">Divorced</option>
+            <option value="Widowed">Widowed</option>
+        </select><br><br>
+        Medical Condition / Disability (if any): <textarea name="medical"></textarea><br><br>
+        Expectations from Partner: <textarea name="expectations"></textarea><br><br>
+
+        <h2>Verification</h2>
+        ID Proof: <input type="file" name="id_proof"><br><br>
+        Educational/Work Certificates: <input type="file" name="certificates"><br><br>
+        Horoscope Copy: <input type="file" name="horoscope_file"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+
+</html>
