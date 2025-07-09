@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.5s ease;
+}
+
+div {
+    height: 60vh;
+    width: 80vw;
+    background-color: blue;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    gap: 20px;
+}
+
+.btn-group {
+    display: flex;
+    flex-direction: row; 
+    gap: 38px;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+
+.incr:hover {
+    background-color:chartreuse; 
+}
+
+.decr:hover {
+    background-color:yellow; /* Light red */
+}
+
+.reset:hover {
+    background-color: red; /* Light blue */
+}

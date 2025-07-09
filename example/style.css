@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    
+}
+.ajay{
+    background-color: aqua;
+    padding: 20px;
+    text-align: center;
+}
+.edu{
+    background-color: aliceblue;
+    color: blue;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
