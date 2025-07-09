@@ -11966,12 +11966,14 @@ function _h() {
         })
     })
 }
+
 function Dh({activeChat: A, chatHistory: al, updateChatHistory: G}) {
     const [o,B] = za.useState("")
       , [L,tl] = za.useState(!1)
       , ol = async S => {
-        const Z = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyCW9ADlO4RNKCt2nBIgfw9SSqO5rk73idU"
-          , $ = {
+        const apikey = import.meta.env.key
+        const Z = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
+ $ = {
             contents: [{
                 parts: [{
                     text: S
